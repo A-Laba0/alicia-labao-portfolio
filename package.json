@@ -1,0 +1,13 @@
+{
+  "name": "alicia-labao-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio site for Alicia A. Labao",
+  "scripts": {
+    "serve": "node server.mjs",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}
