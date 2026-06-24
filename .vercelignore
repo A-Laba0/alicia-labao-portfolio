@@ -1,0 +1,7 @@
+# Keep dev/test tooling out of the static production deploy
+node_modules
+tests
+server.mjs
+playwright.config.ts
+package.json
+package-lock.json
