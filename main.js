@@ -20,4 +20,13 @@
       scrollToId(btn.getAttribute('data-scroll'));
     });
   });
+
+  // Reduced motion: the reel is hidden via CSS; also pause it so it doesn't decode.
+  if (reduceMotion) {
+    var reel = document.querySelector('.work-reel-video');
+    if (reel) {
+      reel.removeAttribute('autoplay');
+      reel.pause();
+    }
+  }
 })();
