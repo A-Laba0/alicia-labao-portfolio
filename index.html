@@ -3,8 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alicia A. Labao — AI-Forward Virtual Assistant</title>
-<meta name="description" content="Alicia A. Labao — AI-forward virtual assistant. I turn complex processes into streamlined, AI-powered workflows.">
+<title>Alicia A. Labao | Portfolio</title>
+<meta name="description" content="I turn complex processes into streamlined, AI-powered workflows.">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+<!-- Open Graph / social sharing -->
+<meta property="og:title" content="Alicia A. Labao | Portfolio">
+<meta property="og:description" content="I turn complex processes into streamlined, AI-powered workflows.">
+<meta property="og:type" content="website">
+<!-- TODO: after deploy, replace the placeholder domain with your real deployed URL -->
+<meta property="og:image" content="https://your-portfolio.vercel.app/images/og-card.png">
+<!-- TODO: after deploy, replace with your real deployed URL (e.g. https://alicia-labao.vercel.app) -->
+<meta property="og:url" content="https://your-portfolio.vercel.app">
+
+<!-- TODO: after deploy, replace with your real deployed URL -->
+<link rel="canonical" href="https://your-portfolio.vercel.app">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -41,7 +57,7 @@
           <span class="chip"><span class="chip-dot"></span>Arca Academy graduate</span>
           <span class="chip"><span class="chip-dot"></span>Sto. Tomas, Batangas-based</span>
         </div>
-        <a class="btn btn-accent btn-lg" href="/resume.pdf" target="_blank" rel="noopener">
+        <a class="btn btn-accent btn-lg" href="/resume.pdf" target="_blank" rel="noopener" download="alicia-labao-resume.pdf">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 21h14"></path></svg>
           Download Resume
         </a>
@@ -49,7 +65,10 @@
       <div class="hero-photo-wrap">
         <div class="photo-frame">
           <div class="photo-accent"></div>
-          <img class="photo" src="images/profile.jpg" alt="Portrait of Alicia A. Labao" width="240" height="276">
+          <picture>
+            <source type="image/webp" srcset="images/profile-480.webp">
+            <img class="photo" src="images/profile-480.jpg" alt="Portrait of Alicia A. Labao" width="240" height="276">
+          </picture>
         </div>
       </div>
     </section>
@@ -119,7 +138,7 @@
             <div class="tags">
               <span class="tag">Front-End Development</span>
               <span class="tag">Responsive Design</span>
-              <span class="tag">GitHub + Vercel</span>
+              <span class="tag">Git + Vercel deploy</span>
             </div>
             <div class="work-link">View live
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>
@@ -246,7 +265,7 @@
             <span class="pill">HTML</span>
             <span class="pill">CSS</span>
             <span class="pill">JavaScript</span>
-            <span class="pill">Git &amp; GitHub</span>
+            <span class="pill">Git &amp; version control</span>
             <span class="pill">Vercel deployment</span>
             <span class="pill">Supabase</span>
             <span class="pill">Node.js</span>

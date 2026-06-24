@@ -241,6 +241,7 @@ h1, h2, h3, p { margin: 0; }
   background: var(--color-amber-100);
   z-index: 0;
 }
+.photo-frame picture { display: contents; }
 .photo {
   position: relative;
   z-index: 1;
