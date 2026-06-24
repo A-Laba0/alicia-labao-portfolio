@@ -269,29 +269,6 @@ h1, h2, h3, p { margin: 0; }
 }
 
 /* ── Work ───────────────────────────────────────────────── */
-.work-reel {
-  margin-bottom: 32px;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: var(--shadow-md);
-  background: var(--color-navy-50);
-  line-height: 0;
-}
-.work-reel-video,
-.work-reel-fallback {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-.work-reel-fallback { display: none; }
-
-@media (prefers-reduced-motion: reduce) {
-  .work-reel-video { display: none; }
-  .work-reel-fallback { display: block; }
-}
-
 .work-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
